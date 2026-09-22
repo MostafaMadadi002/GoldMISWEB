@@ -1,0 +1,8 @@
+{
+  "name": "خزانه | سیستم مدیریت طلافروشی",
+  "description": "سیستم جامع و هوشمند مدیریت فروشگاه‌های طلا، جواهر و نقره با قابلیت‌های پیشرفته گزارش‌دهی و حسابداری.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
