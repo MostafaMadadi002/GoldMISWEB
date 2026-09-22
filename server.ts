@@ -6,8 +6,8 @@ dotenv.config({ path: ".env.local" });
 import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
-import { getPrices } from "./api/_lib/prices";
-import { sendContactEmail } from "./api/_lib/email";
+import { getPrices } from "./api/_lib/prices.js";
+import { sendContactEmail } from "./api/_lib/email.js";
 
 // NOTE: this file is the LOCAL / VPS entry point (npm run dev, npm start).
 // It is NOT used on Vercel — Vercel runs api/prices.ts and api/contact.ts

@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { getPrices } from "./_lib/prices";
+import { getPrices } from "./_lib/prices.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
